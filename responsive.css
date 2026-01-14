@@ -30,10 +30,16 @@
 
 /* offer section  */
 .conterner{
-    
-    flex-direction: column;
-    padding: 60px 30px;
+   
     gap: 30px;
+    padding: 0 10px;
+}
+.head h2{
+    font-size: 2.2rem;
+
+}
+#section{
+    margin: 30px 80px;
 }
 
 
@@ -50,12 +56,33 @@
 #section{
     margin: 30px 80px;
 }
-}
+
 /* delivery section  */
 .delivary-contenar{
     flex-direction: column;
     padding-bottom: 50px;
 }
+/* offer section  */
+.conterner{
+   
+    flex-direction: column;
+    padding: 50px 30px;
+}
+
+/* instragram section  */
+.card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+}
+
 
 
 /* mobile device */

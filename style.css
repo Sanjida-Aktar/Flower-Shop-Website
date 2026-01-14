@@ -52,6 +52,7 @@ body{
 /* flower section  */
 #section{
     margin: 100px 120px;
+
 }
 .heading{
     text-align: center;
@@ -134,5 +135,19 @@ body{
     border-radius: 8px;
 }
 
+
+/* instragram section  */
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+.input{
+ background-image: url("Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+   background-size: cover;  
+   background-position: center;
+} 
 
 
