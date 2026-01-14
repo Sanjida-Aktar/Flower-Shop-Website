@@ -20,7 +20,16 @@
 .flower-box{
     flex-wrap: wrap;
 }
-
+/* delivery section  */
+.delivary-contenar{
+    gap: 20px;
+}
+.bg-color{
+    padding: 30px;
+}
+#section{
+    margin: 30px 50px;
+}
 
 
 /* tablet device */
@@ -34,10 +43,17 @@
     padding-top: 30px;
 }
 #section{
-    margin: 30px 30px;
+    margin: 30px 80px;
 }
+}
+/* delivery section  */
+.delivary-contenar{
+    flex-direction: column;
+    padding-bottom: 50px;
 }
 
+
+/* mobile device */
 @media (max-width: 480px) {
   #heading-section {
     padding: 5px;
@@ -45,4 +61,8 @@
   .heading h2{
     font-size: 2rem;
   }
+  /* delivery section  */
+  #section{
+    margin: 30px 40px;
+}
 }

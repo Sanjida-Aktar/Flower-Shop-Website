@@ -108,4 +108,17 @@ body{
  text-align: center;
 }
 
+/* delivery section  */
+.bg-color{
+    background-color: rgba(138, 9, 71, 0.1);
+    padding: 80px;
+}
+.delivary-contenar{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    gap: 80px;      
+}
+
 
