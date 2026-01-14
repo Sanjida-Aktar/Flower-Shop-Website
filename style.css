@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+/* common class */
+.btn{
+    padding: 20px 40px;
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 30px;
+    
+}
+
+#heading-section{
+    background-color: rgba(167, 33, 98, 0.1);
+    max-width: 1440px;  
+  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 95px;
+    margin: 0 120px;
+    padding-top: 30px;
+}
+
+.hero-heading h1{
+    font-size: 3.5rem;
+    font-weight: 700px;
+    width: 80%;
+   
+
+}
+.hero-heading p{
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-top: 30px;
+    color: #272727;
+    margin-bottom: 30px;
+}
+.hero-img img{
+    height: 100%;
+}
