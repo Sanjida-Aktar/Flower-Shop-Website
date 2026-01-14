@@ -16,6 +16,11 @@
     /* width: 85%; */
   }
 }
+/* flower section  */
+.flower-box{
+    flex-wrap: wrap;
+}
+
 
 
 /* tablet device */
@@ -28,10 +33,16 @@
     margin: 20px;
     padding-top: 30px;
 }
+#section{
+    margin: 30px 30px;
+}
 }
 
 @media (max-width: 480px) {
   #heading-section {
     padding: 5px;
+  }
+  .heading h2{
+    font-size: 2rem;
   }
 }

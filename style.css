@@ -47,3 +47,65 @@ body{
 .hero-img img{
     height: 100%;
 }
+
+
+/* flower section  */
+#section{
+    margin: 100px 120px;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+.heading h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+    /* text-align: center; */
+}
+.heading p{
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #272727;
+    /* width: 590px; */
+    margin: 0 auto;
+}
+.flower-box{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.box-1 img{
+    /* height: 400px; */
+    background-color: rgba(167, 33, 98, 0.1);
+    border-top-left-radius: 50%;
+ border-top-right-radius: 50%;
+ text-align: center;
+    width: 300px;
+    padding: 100px 60px 0px 60px;
+}
+.box-2 img{
+    height: 350px;
+    width: 300px;
+    padding: 90px 60px 30px 60px;
+    background-color: rgba(4, 103, 93, 0.1);
+    border-top-left-radius: 50%;
+ border-top-right-radius: 50%;
+ text-align: center;
+}
+.box-3 img{
+    height: 345px;
+    width: 300px;
+    padding: 90px 60px 0px 60px;
+    background-color: rgba(9, 4, 111, 0.1);
+    border-top-left-radius: 50%;
+ border-top-right-radius: 50%;
+ text-align: center;
+}
+
+
