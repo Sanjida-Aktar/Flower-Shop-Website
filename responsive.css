@@ -27,8 +27,13 @@
 .bg-color{
     padding: 30px;
 }
-#section{
-    margin: 30px 50px;
+
+/* offer section  */
+.conterner{
+    
+    flex-direction: column;
+    padding: 60px 30px;
+    gap: 30px;
 }
 
 
@@ -63,6 +68,6 @@
   }
   /* delivery section  */
   #section{
-    margin: 30px 40px;
+    margin: 30px 0px;
 }
 }
